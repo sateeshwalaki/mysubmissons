@@ -1,0 +1,209 @@
+<html>
+  <head>
+		<style>
+			#header{
+				background-color: #9400d3;
+				width:100%;
+				height:100px;
+				text-align: center;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+
+			#sidebar-left{
+				float:left;
+				width:15%;
+				padding-top: 10px;
+				background-color: ;
+			}
+
+			.banner-btn a{
+	            width:200px;
+	            height: 10px;
+	            text-decoration:none;
+	            display:inline-block;
+	            margin:10px 10px;
+	            padding:12px 0;
+	            background-color:#00BFFF;
+	            border:.5px solid #00BFFF;
+	            position:relative;
+            }
+
+			#main{
+				float:left;
+				width:70%;
+				background-color: ;
+			}
+
+			#sidebar-right{
+				float:left;
+				height: 100px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				width:15%;
+				background-color: #00BFFF;
+			}
+
+			#footer{
+				clear:both;
+				height: 100px;
+				width: 100%;
+				text-align: center;
+				background-color: #00BFFF;
+			}
+
+			#sidebar-left, #main, #sidebar-right{
+				min-height: 500px				
+			}
+
+
+			@media(min-width: 992px){
+
+            }
+
+            @media(min-width: 768px) and (max-width: 991px){
+	.header {
+	font-size: 22px;
+}
+
+    .sidebar-left {
+	font-size: 42px;
+	font-weight: bold;
+}
+    .sidebar-right {
+    font-size: 42px;
+	font-weight: bold;
+    }
+
+    .main{
+	height: 1200px;
+
+}
+    .footer{
+	height: 2600px;
+}
+
+}
+
+@media(min-width: 575px)and (max-width: 767px){
+	.header{
+	font-size: 22px;
+}
+
+    .sidebar-left{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+    .sidebar-right {
+    font-size: 42px;
+	font-weight: bold;
+    }
+
+    .main{
+	height: 1300px;
+
+}
+
+    .main{
+	height: 2600px;
+}
+.footer{
+	height: 20px;
+
+}
+
+.footer {
+	line-height: 20px;
+}
+
+}
+
+
+
+@media(min-width: 480px)and (max-width: 574px){
+	.headerset h2{
+	font-size: 22px;
+}
+
+    .headerset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+    .ourservices{
+	height: 1200px;
+
+}
+
+    .portfolio{
+	height: 2700px;
+}
+.footer{
+	height: 20px;
+
+}
+
+.footer h6{
+	line-height: 20px;
+}
+}
+
+@media(max-width:479px){
+
+	.header{
+	font-size: 22px;
+}
+
+    .sidebar-left {
+	font-size: 42px;
+	font-weight: bold;
+}
+
+    .sidebar-right{
+	height: 1300px;
+
+}
+
+    .main{
+	height: 2900px;
+}
+
+.main{
+	height: 1400px;
+}
+
+.footer{
+	height: 20px;
+
+}
+
+.footer{
+	line-height: 20px;
+}
+
+}
+
+		</style>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="sidebar-left">
+			<div class="banner-btn">
+		<a href="#signin"><span></span></a>
+	</div>
+	<div class="banner-btn">
+		<a href="#signin"><span></span> </a>
+	</div>
+	<div class="banner-btn">
+		<a href="#signin"><span></span> </a>
+	</div>
+	<div class="banner-btn">
+		<a href="#signin"><span></span></a>
+	</div>
+		</div>
+		<div id="main"></div>
+		<div id="sidebar-right"></div>
+		<div id="footer"></div>
+	</body>
+</html>
